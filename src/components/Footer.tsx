@@ -113,20 +113,20 @@ export function Footer() {
             <Icons.wind className="h-8 w-8 rounded-full bg-[#0e1426] p-1" />
           </div>
           <div className="flex gap-2">
-            <p className="text-xl text-[#5f6281]">Direction:</p>
+            <p className="text-xl text-[#dfdfe5]">Direction:</p>
             <p className="text-xl text-white">{windDirection}</p>
           </div>
           <div className="flex gap-2">
-            <p className="text-xl text-[#5f6281]">Speed:</p>
+            <p className="text-xl text-[#dfdfe5]">Speed:</p>
             <p className="text-xl text-white">{windSpeed} km/h</p>
           </div>
           <div className="flex gap-2">
-            <p className="text-xl text-[#5f6281]">Average:</p>
+            <p className="text-xl text-[#dfdfe5]">Average:</p>
             <p className="text-xl text-white">{windAvg}</p>
           </div>
         </div>
         <div className="flex items-end">
-          <p className="text-xl text-[#5f6281]">Moon Phase</p>
+          <p className="text-xl text-[#dfdfe5]">Moon Phase</p>
           <Icons.moon className="h-12 w-12" />
         </div>
       </div>
