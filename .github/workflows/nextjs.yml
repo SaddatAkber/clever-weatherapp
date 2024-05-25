@@ -22,10 +22,7 @@ jobs:
         run: npm install
 
       - name: Build Next.js
-        run: |
-          export NEXT_STATIC_EXPORT=true
-          npx --no-install next build
-          npx --no-install next export
+        run: npx --no-install next build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
